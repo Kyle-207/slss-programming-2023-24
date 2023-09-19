@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Natural Language Processing.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -172,8 +172,10 @@
   },
   "active": "ab6883d0509a8d02",
   "lastOpenFiles": [
-    "Markdown (Re) Introduction.md",
+    "Headers.md",
     "Natural Language Processing.md",
-    "cheetahpic.md"
+    "Markdown (Re) Introduction.md",
+    "cheetahpic.md",
+    "input_and_output.py"
   ]
 }
