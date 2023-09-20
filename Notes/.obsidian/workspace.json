@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Natural Language Processing.md",
-                "mode": "preview",
+                "file": "Design.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural Language Processing.md",
+                "file": "Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Natural Language Processing.md",
+                "file": "Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural Language Processing.md"
+                "file": "Design.md"
               }
             }
           },
@@ -172,8 +172,11 @@
   },
   "active": "ab6883d0509a8d02",
   "lastOpenFiles": [
-    "Headers.md",
+    "chatbot.py",
     "Natural Language Processing.md",
+    "Design.md",
+    "Strings.md",
+    "Headers.md",
     "Markdown (Re) Introduction.md",
     "cheetahpic.md",
     "input_and_output.py"
