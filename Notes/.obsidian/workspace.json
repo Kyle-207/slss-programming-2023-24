@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ab6883d0509a8d02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Design.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design.md",
+                "file": "Markdown (Re) Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design.md",
+                "file": "Markdown (Re) Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design.md"
+                "file": "Markdown (Re) Introduction.md"
               }
             }
           },
@@ -170,15 +157,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab6883d0509a8d02",
+  "active": "06d7d42719020596",
   "lastOpenFiles": [
+    "Modules.md",
+    "Lists.md",
+    "Natural Language Processing.md",
+    "Markdown (Re) Introduction.md",
+    "Design.md",
     "warmup_1.py",
     "chatbot.py",
-    "Natural Language Processing.md",
-    "Design.md",
     "Strings.md",
     "Headers.md",
-    "Markdown (Re) Introduction.md",
     "cheetahpic.md",
     "input_and_output.py"
   ]
