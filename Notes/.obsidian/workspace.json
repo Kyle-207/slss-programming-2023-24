@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markdown (Re) Introduction.md",
+                "file": "Boolean.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markdown (Re) Introduction.md",
+                "file": "Boolean.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Markdown (Re) Introduction.md",
+                "file": "Boolean.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markdown (Re) Introduction.md"
+                "file": "Boolean.md"
               }
             }
           },
@@ -159,14 +159,18 @@
   },
   "active": "06d7d42719020596",
   "lastOpenFiles": [
-    "Modules.md",
-    "Lists.md",
+    "Conditionals.md",
     "Natural Language Processing.md",
+    "Boolean.md",
+    "Modules.md",
+    "Git Commands.md",
     "Markdown (Re) Introduction.md",
+    "Strings.md",
+    "Terminal Commands.md",
+    "Lists.md",
     "Design.md",
     "warmup_1.py",
     "chatbot.py",
-    "Strings.md",
     "Headers.md",
     "cheetahpic.md",
     "input_and_output.py"
