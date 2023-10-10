@@ -5,7 +5,6 @@ tags:
   - y2023
   - programming-level-1-2
 ---
-
 # Headings
 We create headings in Markdown using has (#) symbols
 To create subheadings, we can use multiple hash symbols
