@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Errors.md",
+                "file": "Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Errors.md",
+                "file": "Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Errors.md",
+                "file": "Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Errors.md"
+                "file": "Design.md"
               }
             }
           },
@@ -159,21 +159,22 @@
   },
   "active": "b4de0c9b71ec7ffb",
   "lastOpenFiles": [
-    "Strings.md",
+    "Iteration.md",
     "Errors.md",
-    "Terminal Commands.md",
-    "Boolean.md",
-    "cheetahpic.md",
-    "Conditionals.md",
-    "Design.md",
     "Git Commands.md",
     "Headers.md",
     "Lists.md",
     "Markdown (Re) Introduction.md",
     "Modules.md",
     "Natural Language Processing.md",
+    "Strings.md",
+    "Terminal Commands.md",
+    "Untitled",
+    "Boolean.md",
+    "cheetahpic.md",
+    "Conditionals.md",
+    "Design.md",
     "list.md",
-    "Iteration.md",
     "Methods.md",
     "warmup_1.py",
     "chatbot.py",
