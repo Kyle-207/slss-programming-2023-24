@@ -59,4 +59,3 @@ countdown = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, "Happy New Year!"]
 for one_second in countdown:
     print(one_second)
     time.sleep(1)
- 
