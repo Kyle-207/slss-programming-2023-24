@@ -12,18 +12,18 @@ print("There are two questions that you need to answer.")
 
 # Ask if the user likes the colour red or capes
 
-answer_1 = input("Do you like the colour red?").lower()
+like_red = input("Do you like the colour red?").lower()
 time.sleep(1)
 
-answer_2 = input("Do you like capes?").lower()
+like_capes = input("Do you like capes?").lower()
 time.sleep(1)
 
 # Decide if the user is on the Dark side or the Light side
 
-if answer_1 == "yes" or answer_2 == "yes":
+if like_red == "yes" or like_capes == "yes":
     print("Dark side it is!")
 
-elif answer_1 == "no" and answer_2 == "no":
+elif like_red == "no" and like_capes == "no":
     print("Light side, I see.")
 
 else:
