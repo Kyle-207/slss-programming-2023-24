@@ -20,7 +20,7 @@ time.sleep(1)
 # Cuisines
 italian_food = ["pasta", "pizza", "canneloni", "tiramisu"]
 # Add another cuisine that our bot should make a suggestion for
-western_food = ["burgers", "fries", "hot dogs"]
+japanese_food = ["sushi", "tempura", "ramen", "soba", "udon"]
 
 # If they answer with Italian food,
 # Suggest an Italian restaurant
@@ -31,17 +31,18 @@ if fave_food.lower().strip("!.,?") in italian_food:
     time.sleep(1)
     print("Here's their address.")
     print("186-8180 No 2 Rd, Richmond, BC")
-elif fave_food.lower().strip("!..?") in western_food:
-    print("I think that you like western food. 🍔")
+
+elif fave_food.lower().strip("!.,?") in japanese_food:
+    print("I think that you like Japanese food. 🇯🇵")
     time.sleep(1)
-    print("I suggest White Spot.")
+    print("I suggest Gami Sushi.")
     time.sleep(1)
-    print("Here's their address.")
-    print("6551 No. 3 Rd #1902, Richmond, BC")
-    print("It's in Richmond Centre.")
+    print("Here's the address.")
+    time.sleep(0.5)
+    print("10111 No. 3 Rd #126, Richmond, BC")
+
 else:
     print("Sorry, I'm not sure what kind of food that is.")
     time.sleep(1)
     print("I can't, unfortunately, provide a suggestion.")
 
-print("Thanks for using the Food Suggestion Bot!")
