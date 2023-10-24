@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Strings.md",
+                "file": "quiz_2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Strings.md",
+                "file": "quiz_2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Strings.md",
+                "file": "quiz_2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Strings.md"
+                "file": "quiz_2.md"
               }
             }
           },
@@ -158,6 +158,10 @@
   },
   "active": "b4de0c9b71ec7ffb",
   "lastOpenFiles": [
+    "Lists.md",
+    "quiz_1.md",
+    "quiz_2.md",
+    "Strings.md",
     "Iteration.md",
     "Headers.md",
     "Git Commands.md",
@@ -165,13 +169,11 @@
     "Design.md",
     "Conditionals.md",
     "Natural Language Processing.md",
-    "Strings.md",
     "Terminal Commands.md",
     "Boolean.md",
     "star_wars_bot.py",
     "Modules.md",
     "cheetahpic.md",
-    "Lists.md",
     "Markdown (Re) Introduction.md",
     "loop_practice.py",
     "food_suggestion_bot.py",
