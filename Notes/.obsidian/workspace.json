@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2780515ffb727114",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Type.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "quiz_2.md",
+                "file": "Type.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "quiz_2.md",
+                "file": "Type.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quiz_2.md"
+                "file": "Type.md"
               }
             }
           },
@@ -156,11 +169,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4de0c9b71ec7ffb",
+  "active": "2780515ffb727114",
   "lastOpenFiles": [
+    "fave_bubble_tea.py",
+    "number_practice.py",
+    "quiz_2.md",
+    "Type.md",
     "Lists.md",
     "quiz_1.md",
-    "quiz_2.md",
     "Strings.md",
     "Iteration.md",
     "Headers.md",
