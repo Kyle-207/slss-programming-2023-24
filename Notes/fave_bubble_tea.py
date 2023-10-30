@@ -10,6 +10,7 @@ coco_likes = 0
 suntea_likes = 0
 chatime_likes = 0
 bubqueen_likes = 0
+other_responses = 0
 
 # ------ CONSTANTS
 NUM_RESPONDENTS = 5
@@ -34,6 +35,8 @@ for _ in range(NUM_RESPONDENTS):
         chatime_likes += 1
     elif fave_place == "bubble queen":
         bubqueen_likes += 1
+    else:
+        other_responses += 1
 
 
 
@@ -41,7 +44,8 @@ for _ in range(NUM_RESPONDENTS):
 
 
 # Print out a summary
-print(f"Coco Likes: {coco_likes}, which is {coco_likes / NUM_RESPONDENTS * 100}%")
-print(f"Suntea Likes: {suntea_likes}, which is {suntea_likes / NUM_RESPONDENTS * 100}%")
-print(f"Chatime Likes: {chatime_likes}, which is {chatime_likes / NUM_RESPONDENTS * 100}%")
-print(f"Bubble Queen Likes: {bubqueen_likes}, which is {bubqueen_likes / NUM_RESPONDENTS * 100}%")
+print(f"Coco Likes: {coco_likes}, which is {round(coco_likes / NUM_RESPONDENTS * 100)}%")
+print(f"Suntea Likes: {suntea_likes}, which is {round(suntea_likes / NUM_RESPONDENTS * 100)}%")
+print(f"Chatime Likes: {chatime_likes}, which is {round(chatime_likes / NUM_RESPONDENTS * 100)}%")
+print(f"Bubble Queen Likes: {bubqueen_likes}, which is {round(bubqueen_likes / NUM_RESPONDENTS * 100)}%")
+print(f"Others: {other_responses}, which is {round(other_responses / NUM_RESPONDENTS * 100)}%")
