@@ -30,9 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "289f6f93c6e9b3bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Numbers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a553caaef09a40bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recommendation Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Type.md",
+                "file": "Recommendation Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Type.md",
+                "file": "Recommendation Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Type.md"
+                "file": "Recommendation Systems.md"
               }
             }
           },
@@ -169,10 +193,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2780515ffb727114",
+  "active": "a553caaef09a40bc",
   "lastOpenFiles": [
-    "Terminal Commands.md",
+    "Numbers.md",
+    "Recommendation Systems.md",
     "Type.md",
+    "Terminal Commands.md",
     "fave_bubble_tea.py",
     "number_practice.py",
     "quiz_2.md",

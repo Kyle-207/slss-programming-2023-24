@@ -39,20 +39,24 @@ carver.dot(30)
 
 # Right Eye
 carver.shape("circle")
-carver.pendown()
+carver.penup()
 carver.setpos(30, 20)
-carver.dot(30)
+carver.dot(35)
 
 # Mouth
 
 carver.penup()
 carver.setpos(0, -50)
 carver.pendown()
+carver.pensize(30)
+carver.fd(30)
+carver.bk(60)
 
-n=10
-while n <= 40:
-    carver.circle(n)
-    n = n+5
+
+# n=10
+# while n <= 40:
+#     carver.circle(n)
+#     n = n+5
 
 
 
