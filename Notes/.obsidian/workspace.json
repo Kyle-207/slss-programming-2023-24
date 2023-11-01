@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b4de0c9b71ec7ffb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "quiz_2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2780515ffb727114",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Type.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "289f6f93c6e9b3bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Numbers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a553caaef09a40bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recommendation Systems.md",
+                "file": "Git Commands.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "tag:y2023",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recommendation Systems.md",
+                "file": "Git Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recommendation Systems.md",
+                "file": "Git Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recommendation Systems.md"
+                "file": "Git Commands.md"
               }
             }
           },
@@ -195,20 +158,22 @@
   },
   "active": "a553caaef09a40bc",
   "lastOpenFiles": [
-    "Numbers.md",
     "Recommendation Systems.md",
+    "Errors.md",
+    "Markdown (Re) Introduction.md",
+    "chip_rater.py",
+    "Numbers.md",
+    "quiz_2.md",
     "Type.md",
     "Terminal Commands.md",
     "fave_bubble_tea.py",
     "number_practice.py",
-    "quiz_2.md",
     "Lists.md",
     "quiz_1.md",
     "Strings.md",
     "Iteration.md",
     "Headers.md",
     "Git Commands.md",
-    "Errors.md",
     "Design.md",
     "Conditionals.md",
     "Natural Language Processing.md",
@@ -216,7 +181,6 @@
     "star_wars_bot.py",
     "Modules.md",
     "cheetahpic.md",
-    "Markdown (Re) Introduction.md",
     "loop_practice.py",
     "food_suggestion_bot.py",
     "exercise_1.py",
@@ -224,7 +188,6 @@
     "list.md",
     "Methods.md",
     "warmup_1.py",
-    "chatbot.py",
-    "input_and_output.py"
+    "chatbot.py"
   ]
 }
