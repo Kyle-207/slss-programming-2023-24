@@ -17,10 +17,10 @@ time.sleep(1)
 
 order_cost = 0
 
-if need_burger.lower().strip(",.?! ") == "yes":
+if need_burger.lower().strip(",.?!/ ") == "yes":
     order_cost += 5
 
-if need_fries.lower().strip(",.?! ") == "yes":
+if need_fries.lower().strip(",.?!/ ") == "yes":
     order_cost += 3
 
 # Calculate the total money with a 14% tax

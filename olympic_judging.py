@@ -18,12 +18,12 @@ print("Each score is out 10 points maximum, you can use half points if you want.
 final_score = 0
 
 for judge in judges:
-    score = float(input(judge + ": ").strip(",.?! "))
+    score = float(input(judge + ": ").strip(",.?!/ "))
     if score >= 0 and score <= 10:
         final_score += score
     else:
         print("Your input score does not match the restrictions, please type again.")
-        score = float(input(judge + ": ").strip(",.?! "))
+        score = float(input(judge + ": ").strip(",.?!/ "))
 
 # Calculate the average score
 

@@ -8,7 +8,7 @@ import datetime
 # Ask the user what their age is
 # and store their response
 
-user_age = int(input("I can calculate your age in 2049. How old are you?").strip(",.?! "))
+user_age = int(input("I can calculate your age in 2049. How old are you?").strip(",.?!/ "))
 
 # Do the math
 
