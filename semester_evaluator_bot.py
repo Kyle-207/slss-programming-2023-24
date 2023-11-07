@@ -2,6 +2,8 @@
 # Author: Kyle Wang
 # 3 Nov 2023
 
+import time
+
 # Ask how many courses the user is taking this semester
 
 num_of_courses = input("Hello, I'm a semester evaluator. How many courses are you taking?").lower().strip(",.?/! ")
@@ -18,11 +20,15 @@ for course in range(int(num_of_courses)):
 
 average = round(total_score / int(num_of_courses), 1)
 
+time.sleep(1)
+
 print(f"Your average courses rating is {average} out of 5.")
 
 # Score: <= 1 -- Ouch
 # Score: 1 < x < 3 -- Not a bad semester
 # Score: > 3 -- <score>? Glad to hear that!
+
+time.sleep(1)
 
 if average <= 1:
     print("That doesn't sound very pleasant. Ouch.")
