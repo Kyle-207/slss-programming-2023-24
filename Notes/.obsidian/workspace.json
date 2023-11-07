@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7b63b137c590047c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "quiz_2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git Commands.md",
+                "file": "quiz_2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git Commands.md",
+                "file": "quiz_2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git Commands.md"
+                "file": "quiz_2.md"
               }
             }
           },
@@ -156,8 +169,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a553caaef09a40bc",
+  "active": "e10a99fd7f01625d",
   "lastOpenFiles": [
+    "Untitled",
+    "Design.md",
+    "Untitled.md",
+    "Git Commands.md",
     "README.md",
     "Iteration.md",
     "Recommendation Systems.md",
@@ -174,8 +191,6 @@
     "quiz_1.md",
     "Strings.md",
     "Headers.md",
-    "Git Commands.md",
-    "Design.md",
     "Conditionals.md",
     "Natural Language Processing.md",
     "Boolean.md",
@@ -185,7 +200,6 @@
     "loop_practice.py",
     "food_suggestion_bot.py",
     "exercise_1.py",
-    "Untitled",
     "list.md",
     "Methods.md",
     "warmup_1.py",
