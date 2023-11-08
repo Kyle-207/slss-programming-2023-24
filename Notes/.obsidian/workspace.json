@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numbers Problems Delivery.md",
+                "file": "Quiz 1 - Template.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Numbers Problems Delivery.md",
+                "file": "Quiz 1 - Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Numbers Problems Delivery.md",
+                "file": "Quiz 1 - Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Numbers Problems Delivery.md"
+                "file": "Quiz 1 - Template.md"
               }
             }
           },
@@ -158,15 +158,15 @@
   },
   "active": "7b63b137c590047c",
   "lastOpenFiles": [
-    "Git Commands.md",
+    "Recommendation Systems.md",
     "Numbers Problems Delivery.md",
+    "Git Commands.md",
     "Quiz 1 - Template.md",
     "Untitled",
     "Design.md",
     "Untitled.md",
     "README.md",
     "Iteration.md",
-    "Recommendation Systems.md",
     "Errors.md",
     "Markdown (Re) Introduction.md",
     "chip_rater.py",
