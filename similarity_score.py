@@ -1,0 +1,43 @@
+# Comparing Similarity Scores
+# Author: Kyle Wang
+# 8 November 2023
+
+# Calculate similarity scores between two people
+
+# Create two lists that represent the movies
+# that people like
+kyles_favourite_movies = [
+    "Ip Man 4: The Finale"
+    "Star Wars: The Force Awakens"
+    "Big Brother"
+    "3 Idiots"
+]
+ubials_favourite_movies = [
+    "The Matrix",
+    "Avengers: Infinity War",
+    "The Empire Strikes Back",
+    "Infernal Affairs",
+    "Rogue One"
+]
+
+bens_favourite_movies = [
+    "Thomas and Friends Big World Big Adverture",
+    "Infernal Affairs",
+    "Rogue One",
+    "",
+
+]
+
+
+# Initialize the similarity score
+similarity_score = 0
+
+
+# Iterate through all movies in the first list
+for movie in ubials_favourite_movies:
+    if movie in bens_favourite_movies:
+        similarity_score += 1
+
+
+# Display the results
+print(f"Ubial and Ben have the similarity score of :{similarity_score}")

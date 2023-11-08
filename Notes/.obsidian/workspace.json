@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quiz 1 - Template.md",
+                "file": "Recommendation Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quiz 1 - Template.md",
+                "file": "Recommendation Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quiz 1 - Template.md",
+                "file": "Recommendation Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quiz 1 - Template.md"
+                "file": "Recommendation Systems.md"
               }
             }
           },
@@ -158,10 +158,10 @@
   },
   "active": "7b63b137c590047c",
   "lastOpenFiles": [
+    "Quiz 1 - Template.md",
     "Recommendation Systems.md",
     "Numbers Problems Delivery.md",
     "Git Commands.md",
-    "Quiz 1 - Template.md",
     "Untitled",
     "Design.md",
     "Untitled.md",
