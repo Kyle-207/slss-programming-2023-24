@@ -24,7 +24,8 @@ bens_favourite_movies = [
     "Thomas and Friends Big World Big Adverture",
     "Infernal Affairs",
     "Rogue One",
-    "",
+    "Spider-man: Into the Spider-verse",
+    "Guardians of the Galaxy: Volume 3"
 
 ]
 
