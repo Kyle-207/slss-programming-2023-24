@@ -10,13 +10,11 @@
 with open("./data.csv") as f:
     # Read the first line of data
     f.readline()
-    print(f.readline())
     
 # Create a "profile" for someone that shows their
 # favourite places at SFU
 
 profile = [
-    "",
     "Starbucks",
     "Bamboo Garden",
     "Uncle Fatih's",
@@ -26,11 +24,12 @@ profile = [
 
 # Initialize our top similarity score and their name
 top_sim_score = 0
-
+top_sim_name = ""
 
 with open("./data.csv") as f:
     # Throw away the header line
     header = f.readline()
+
     # For every line of data in the file (string)
     for line in f:
          # Convert the line of data into a list
@@ -41,17 +40,17 @@ with open("./data.csv") as f:
             current_sim_score = 0
             current_name = current_likes[1]
             
-    # sim score algo
-    for item in profile:
-            if item in current_likes:
+            # sim score algo
+            for item in profile:
+               if item in current_likes:
                   current_sim_score += 1
-    # print the current sim_score
+            # print the current sim_score
             print(f"{current_name} - Score: {current_sim_score}")
 
-# Update the top score if this is highest
-if current_sim_score > top_sim_score:
-      top_sim_score = current_sim_score
-      top_sim_score = current_name
+            # Update the top score if this is highest
+            if current_sim_score > top_sim_score:
+                top_sim_score = current_sim_score
+                top_sim_score = current_name
 
 
 print("TOP SIMILAR PERSON!")
