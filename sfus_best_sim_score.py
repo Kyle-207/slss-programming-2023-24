@@ -33,24 +33,28 @@ with open("./data.csv") as f:
     # For every line of data in the file (string)
     for line in f:
          # Convert the line of data into a list
-            current_likes = line.split(",")
+        current_likes = line.split(",")
 
-            # Initialize the CURRENT sim score
-            # store the current person's name
-            current_sim_score = 0
-            current_name = current_likes[1]
-            
-            # sim score algo
-            for item in profile:
-               if item in current_likes:
-                  current_sim_score += 1
-            # print the current sim_score
-            print(f"{current_name} - Score: {current_sim_score}")
+        # Initialize the CURRENT sim score
+        # store the current person's name
+        current_sim_score = 0
+        current_name = current_likes[1]
+        
+        # sim score algo
+        for item in profile:
+            if item in current_likes:
+                current_sim_score += 1
 
-            # Update the top score if this is highest
-            if current_sim_score > top_sim_score:
-                top_sim_score = current_sim_score
-                top_sim_score = current_name
+        # print the current sim_score
+        print(f"{current_name} - Score: {current_sim_score}")
+
+        # Update the top score if this is highest
+        if current_sim_score > top_sim_score:
+            top_sim_score = current_sim_score
+            top_sim_name = current_name
+
+least_sim_score = 5
+least_sim_name = ""
 
 
 print("TOP SIMILAR PERSON!")
