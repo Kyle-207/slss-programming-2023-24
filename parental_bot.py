@@ -21,13 +21,12 @@ for question in questions:
 
     if answer == "yes":
         points += 1
-    
+
+# At the end, reply to the user depending on the points the user has
+
 if points >= 1 and points <= 2:
     print("Ok.")
 elif points >= 3 and points <= 4:
     print("Good!")
 elif points == 0:
     print("I'm coming over.")
-
-# At the end, reply to the user depending on the points the user has
-
