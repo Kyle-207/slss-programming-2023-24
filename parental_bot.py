@@ -16,10 +16,18 @@ questions = [
 points = 0
 
 for question in questions:
+    print(question)
     answer = input().lower().strip(",.?/! ")
 
     if answer == "yes":
         points += 1
+    
+if points >= 1 and points <= 2:
+    print("Ok.")
+elif points >= 3 and points <= 4:
+    print("Good!")
+elif points == 0:
+    print("I'm coming over.")
 
 # At the end, reply to the user depending on the points the user has
 
