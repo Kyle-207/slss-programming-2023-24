@@ -2,8 +2,8 @@ from pathlib import Path
 
 
 # File Exercises
-# Author:
-#
+# Author: Kyle Wang
+# Nov 15, 2023
 
 """Instructions:
 
@@ -27,21 +27,36 @@ with open("./data_example.csv", encoding="utf-8") as f:
 
 # Problem 1:
 # Open the file and print the contents of the second line in the file.
-
+with open("./data_example.csv", encoding="utf-8") as f:
+    f.readline()
+    print(f.readline())
 
 # Problem 2:
 # Good! Now that you've done that, open the file, and print out every line of data.
+with open("./data_example.csv", encoding="utf-8") as f:
+    for line in f:
+        print(line)
 
 
 # Problem 3:
 # If you've made it this far, well done. Next task:
 # Convert that line of data into a list.
+ca_likes = 0
 
+with open("./data_example.csv", encoding="utf-8") as f:
+     for line in f:
+        list_of_data = line.split(",")
 
 # Problem 4:
 # Give yourself a pat on the back.
 # See if you can count how many people like "Chicken Adobo" as their
 # favourite food.
+        for item in list_of_data:
+            if item == "Chicken Adobo":
+                ca_likes += 1
+
+print(f"There are {ca_likes} people who like Chicken Abodo.")
+    
 
 
 # Problem 5:
@@ -49,6 +64,21 @@ with open("./data_example.csv", encoding="utf-8") as f:
 # see if why your code doesn't work.
 # Else, you can move on to this part, which is, find out how many
 # people have the first letter of their first name start with "A".
+first_letter_count = 0
+
+with open("./data_example.csv", encoding="utf-8") as f:
+     header = f.readline()
+
+     for line in f:
+        list_of_data = line.split(",")
+        first_names = list_of_data[0]
+     
+        for name in list_of_data:
+             if name[0] == "A":
+                 first_letter_count += 1
+print(f"There are {first_letter_count} people whose first letter of their first name start with 'A'.")
+        
+
 
 # Problem 6:
 # 19 people! Excellent. How many people come from Guangzhou?
