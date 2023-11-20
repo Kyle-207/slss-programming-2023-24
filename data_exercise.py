@@ -71,7 +71,10 @@ print(f"There are {ca_likes} people who like Chicken Abodo.")
 # Else, you can move on to this part, which is, find out how many
 # people have the first letter of their first name start with "A".
 
+ # Create a counter for the first letter that starts with "A"
+ 
 first_letter = "A"
+first_letter_count = 0
 
 with open("./data_example.csv", encoding="utf-8") as f:
      header = f.readline()
@@ -79,20 +82,16 @@ with open("./data_example.csv", encoding="utf-8") as f:
     # Convert the data into a list
      for line in f:
         list_of_data = line.split(",")
-
-        # Create a counter for the first letter that starts with "A"
-        first_letter_count = 0
+       
         # Store the current person's name
         first_names = list_of_data[0]
-
+        
         # Create an algo that counts the num of people whose first names start with "A"
-        for name in first_names:
+     
+        if first_names[0] == first_letter:
+            first_letter_count += 1
         
-            if first_names[0] == first_letter:
-                first_letter_count += 1
-        
-        
-
+# Print the result
 print(f'There are {first_letter_count} people whose first letter of their first name start with "A".')
         
 
