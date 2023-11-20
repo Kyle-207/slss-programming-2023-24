@@ -5,7 +5,7 @@
 # Get the hobbies from two different users
 
 user_1_h = input("User 1, please enter your hobbies, separated by spaces. Please use underscores to replace with spaces.")
-user_2_h = input("User 2, please enter your hobbies, separated by spaces. Please use underscores to replace with spacese.")
+user_2_h = input("User 2, please enter your hobbies, separated by spaces. Please use underscores to replace with spaces.")
 
 print(f"User 1: {user_1_h}")
 print(f"User 2: {user_2_h}")

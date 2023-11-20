@@ -21,6 +21,7 @@ for question in questions:
 
     if answer == "yes":
         points += 1
+    
 
 # At the end, reply to the user depending on the points the user has
 
