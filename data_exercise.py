@@ -171,7 +171,3 @@ with open("./data_example.csv", encoding="utf-8") as f:
         # It needs to automatically create a counter for it
 
 
-
-
-print(most_popular_food_count)
-
