@@ -163,9 +163,8 @@ with open("./data_example.csv", encoding="utf-8") as f:
         if first_food in foods_list:
             most_popular_food_count += 1
 
-        elif first_food not in foods_list:
-            f.readline
-            
+       
+
 
         
         # Move to the next kind of food and count the times
