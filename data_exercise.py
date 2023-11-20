@@ -122,9 +122,57 @@ print(f"The number of people who come from Guangzhou: {city_count}")
 # number that is even. There are a couple of ways to solve this.
 # You can either do this with the string or with the int.
 
+ccard_count = 0
+
+with open("./data_example.csv", encoding="utf-8") as f:
+     header = f.readline()
+
+    # Convert the data into a list
+     for line in f:
+        list_of_data = line.split(",")
+    
+        # Get a list of all credit card nums
+        ccard_nums = int(list_of_data[3])
+    
+        if ccard_nums % 2 == 0:
+            ccard_count += 1
+
+print(f"There are {ccard_count} people who have a credit card number that is even.")
 
 # Problem 8:
 # Sorry, no answer for the above one. This one is a challenge question.
 # Can you design a way to find the most popular food?
 
+most_popular_food_count = 0
+first_food = "Hamburger"
+
+with open("./data_example.csv", encoding="utf-8") as f:
+     header = f.readline()
+
+    # Convert the data into a list
+     for line in f:
+        list_of_data = line.split(",")
+
+        # Get a list of all the foods
+        foods_list = list_of_data[1]
+
+        # Create an algo that checks for the most pop food
+        # It may need to include some following functions:
+
+        # Counts the num of time a food repeats in the list
+        if first_food in foods_list:
+            most_popular_food_count += 1
+
+        elif first_food not in foods_list:
+            f.readline
+            
+
+        
+        # Move to the next kind of food and count the times
+        # It needs to automatically create a counter for it
+
+
+
+
+print(most_popular_food_count)
 
