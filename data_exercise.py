@@ -144,6 +144,7 @@ print(f"There are {ccard_count} people who have a credit card number that is eve
 # Can you design a way to find the most popular food?
 
 most_popular_food_count = 0
+most_popular_food = ""
 first_food = "Hamburger"
 
 with open("./data_example.csv", encoding="utf-8") as f:
@@ -170,4 +171,7 @@ with open("./data_example.csv", encoding="utf-8") as f:
         # Move to the next kind of food and count the times
         # It needs to automatically create a counter for it
 
+# Print the results
+print(most_popular_food_count)
+print(f"The most popular food is: {most_popular_food}")
 
