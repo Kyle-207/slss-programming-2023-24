@@ -99,24 +99,23 @@ print(f'There are {first_letter_count} people whose first letter of their first 
 # Problem 6:
 # 19 people! Excellent. How many people come from Guangzhou?
 
-# with open("./data_example.csv", encoding="utf-8") as f:
-#      header = f.readline()
+city_count = 0
 
-#     # Convert the data into a list
-#      for line in f:
-#         list_of_data = line.split(",")
+with open("./data_example.csv", encoding="utf-8") as f:
+     header = f.readline()
+
+    # Convert the data into a list
+     for line in f:
+        list_of_data = line.split(",")
         
-#         city_count = 0
-#         city_list = list_of_data[4]
+        # Get a list for all the cities
+        city_list = list_of_data[4]
 
-#         for city in list_of_data[4]:
-#             if city == "Guangshou":
-#                 city_count += 1
+        if "Guangzhou" in city_list:
+            city_count += 1
 
-#         print(list_of_data[4])
-#         print(city)
 
-# print(f"The number of people who come from Guangzhou: {city_count}")
+print(f"The number of people who come from Guangzhou: {city_count}")
 
 # Problem 7:
 # Just one is from Guangzhou! Alright, last one. How many people have a credit card
