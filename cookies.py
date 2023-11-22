@@ -5,9 +5,6 @@
 import random
 import turtle
 
-
-
-
 # Make baker turtle
 baker_turtle = turtle.Turtle()
 baker_turtle.color("brown")
@@ -20,39 +17,36 @@ def make_cookie(x: int, y: int):
     Params:
     x - the x-location of the centre
     y - the y-location of the centre"""
+
     baker_turtle.color("brown")
     baker_turtle.penup()
     baker_turtle.goto(-5 + x, -30 + y)
     baker_turtle.pendown()
     baker_turtle.circle(30)
+    baker_turtle.penup()
 
-make_cookie(100, 30)
+    # Add chips
+    baker_turtle.color("black")
+    baker_turtle.goto(0 + x, 0 + y)
+    baker_turtle.stamp()
 
-# Draw outline of cookie
-baker_turtle.penup()
-baker_turtle.goto(-5, -30)
-baker_turtle.pendown()
-baker_turtle.circle(30)
-baker_turtle.penup()
+    # Add top right, bottom right, top left, bottom left
+    baker_turtle.goto(10 + x, 10 + y)
+    baker_turtle.stamp()
+    baker_turtle.goto(10 + x, -10 + y)
+    baker_turtle.stamp()
+    baker_turtle.goto(-10 + x, 10 + y)
+    baker_turtle.stamp()
+    baker_turtle.goto(-10 + x, -10 + y)
+    baker_turtle.stamp()
 
-# Add chips
+# Create cookies
+for _ in range(5):
+    offset_x = random.randint(-500, 501)
+    offset_y = random.randint(-500, 501)
+    baker_turtle.speed(0)
 
-baker_turtle.color("black")
-baker_turtle.goto(0,0)
-baker_turtle.stamp()
-
-# Add top right, bottom right, top left, bottom left
-baker_turtle.goto(10, 10)
-baker_turtle.stamp()
-baker_turtle.goto(10, -10)
-baker_turtle.stamp()
-baker_turtle.goto(-10, 10)
-baker_turtle.stamp()
-baker_turtle.goto(-10, -10)
-baker_turtle.stamp()
-
-
-
+    make_cookie(offset_x, offset_y)
 
 
 turtle.done()
