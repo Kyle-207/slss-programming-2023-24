@@ -39,5 +39,18 @@ area_of_a_square = area_of_a_square(12.2) + area_of_a_square(144)
 print(area_of_a_square)
 
 
+def stars(x: int):
+    """Returns a string of stars with the same length as the argument.
+    
+    Params:
+    
+    x - the number of stars in
+    """
+    output = print("*" * x)
+
+    return output
+
+stars(69)
+
 
 
