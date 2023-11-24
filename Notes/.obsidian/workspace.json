@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ff3e66534ba47b6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Strings.md",
+                "file": "Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Strings.md",
+                "file": "Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Strings.md"
+                "file": "Functions.md"
               }
             }
           },
@@ -156,12 +169,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d77cb1457790b087",
+  "active": "ff3e66534ba47b6b",
   "lastOpenFiles": [
+    "Strings.md",
+    "Functions.md",
     "Numbers Solutions.md",
     "Number Solutions.md",
     "List.md",
-    "Strings.md",
     "Natural Language Processing.md",
     "Headers.md",
     "Git Commands.md",
@@ -173,7 +187,6 @@
     "Quiz 1 - Template.md",
     "Numbers Problems Delivery.md",
     "Untitled",
-    "Untitled.md",
     "README.md",
     "Iteration.md",
     "Markdown (Re) Introduction.md",
