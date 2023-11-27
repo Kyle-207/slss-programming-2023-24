@@ -74,7 +74,7 @@ def biggest_of_three(x: float, y: float, z: float) -> float:
          
     return biggest
 
-print(biggest_of_three(1, 4, 1))
+print(biggest_of_three(67, 68, 69))
 
 
 # Question 3 - pyramid()
@@ -91,7 +91,7 @@ def pyramid(x: int) -> str:
 
     return output
 
-pyramid(5)
+pyramid(69)
 
 # Question 4 - pyramid_mirror()
 def pyramid_mirror(x: int) -> str:
@@ -107,6 +107,6 @@ def pyramid_mirror(x: int) -> str:
 
     return output
 
-pyramid_mirror(100)
+pyramid_mirror(69)
 
 
