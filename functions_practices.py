@@ -51,7 +51,7 @@ def stars(x: int) -> str:
 
     return output
 
-print(stars(69))
+print(stars(10))
 
 
 # Question 2 - biggest_of_three()
@@ -91,7 +91,7 @@ def pyramid(x: int) -> str:
 
     return output
 
-pyramid(69)
+pyramid(10)
 
 # Question 4 - pyramid_mirror()
 def pyramid_mirror(x: int) -> str:
@@ -107,6 +107,6 @@ def pyramid_mirror(x: int) -> str:
 
     return output
 
-pyramid_mirror(69)
+pyramid_mirror(10)
 
 
