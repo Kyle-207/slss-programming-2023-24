@@ -39,18 +39,74 @@ area_of_a_square = area_of_a_square(12.2) + area_of_a_square(144)
 print(area_of_a_square)
 
 
-def stars(x: int):
+# Question 1 - stars()
+def stars(x: int) -> str:
     """Returns a string of stars with the same length as the argument.
     
     Params:
     
     x - the number of stars in
     """
-    output = print("*" * x)
+    output = "*" * x
 
     return output
 
-stars(69)
+print(stars(69))
 
+
+# Question 2 - biggest_of_three()
+def biggest_of_three(x: float, y: float, z: float) -> float:
+    """Takes three numbers and returns the biggest of the three
+     
+    Params:
+    
+    x, y, z - the three numbers
+    """
+    
+    if x > y and x > z or x == y and x > z or x == z and x > y:
+         biggest = x
+    elif y > x and y > z or y == z and y > x:
+         biggest = y
+    elif z > x and z > y:
+         biggest = z
+    elif x == y == z:
+         biggest = x
+         
+    return biggest
+
+print(biggest_of_three(1, 4, 1))
+
+
+# Question 3 - pyramid()
+def pyramid(x: int) -> str:
+    """Creates a pyramid of stars
+     
+    Params:
+      
+    x - the num of the layers of the pyramid, which
+    also equals the num of stars of the bottom layer
+    """
+    for i in range(1, x + 1):
+        output = print("*" * i)
+
+    return output
+
+pyramid(5)
+
+# Question 4 - pyramid_mirror()
+def pyramid_mirror(x: int) -> str:
+    """Creates a pyramid of stars, but mirrored
+     
+    Params:
+      
+    x - the num of the layers of the pyramid, which
+    also equals the num of stars of the bottom layer
+    """
+    for i in range(1, x + 1):
+        output = print(" " * (x-i) + "*" * i)
+
+    return output
+
+pyramid_mirror(100)
 
 

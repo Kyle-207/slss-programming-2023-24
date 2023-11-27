@@ -131,7 +131,7 @@ e.g.
 
 ```python
 range(0,100)      # Sequence(0, 1, ..., 99)
-range(-10, 10).   # Sequence(-10, -10, ..., 9)
+range(-10, 10).   # Sequence(-10, -9, ..., 9)
 range(0, 100, 2)  # Sequence(0, 2, 4, ..., 98)
 range(100, 0, -1) # Sequence(100, 99, ..., 1)
 ```
