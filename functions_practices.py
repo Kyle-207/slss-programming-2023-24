@@ -40,12 +40,15 @@ print(area_of_a_square)
 
 
 # Question 1 - stars()
+# Create a function called stars()
+# Takes an int as a parameter
+# Returns a string of stars of given length
 def stars(x: int) -> str:
     """Returns a string of stars with the same length as the argument.
     
     Params:
     
-    x - the number of stars in
+    x - the number of stars in a string
     """
     output = "*" * x
 
@@ -55,30 +58,36 @@ print(stars(10))
 
 
 # Question 2 - biggest_of_three()
+# Create a function called biggest_of_three()
+# Takes three parameters, all floats
+# Returns the biggest one
 def biggest_of_three(x: float, y: float, z: float) -> float:
     """Takes three numbers and returns the biggest of the three
      
     Params:
     
-    x, y, z - the three numbers
+    x - the first number
+    y - the second number
+    z - the third number
     """
     
     if x > y and x > z or x == y and x > z or x == z and x > y:
-         biggest = x
+         return x
     elif y > x and y > z or y == z and y > x:
-         biggest = y
+         return y
     elif z > x and z > y:
-         biggest = z
+         return z
     elif x == y == z:
-         biggest = x
-         
-    return biggest
+         return x
 
 print(biggest_of_three(67, 68, 69))
 
 
+
 # Question 3 - pyramid()
-def pyramid(x: int) -> str:
+# Takes one num as a parameter
+# Give a pyramid either regular way or mirrored
+def pyramid(x: int) -> None:
     """Creates a pyramid of stars
      
     Params:
@@ -87,14 +96,12 @@ def pyramid(x: int) -> str:
     also equals the num of stars of the bottom layer
     """
     for i in range(1, x + 1):
-        output = print("*" * i)
-
-    return output
+        print(stars(i))
 
 pyramid(10)
 
 # Question 4 - pyramid_mirror()
-def pyramid_mirror(x: int) -> str:
+def pyramid_mirror(x: int) -> None:
     """Creates a pyramid of stars, but mirrored
      
     Params:
@@ -103,9 +110,7 @@ def pyramid_mirror(x: int) -> str:
     also equals the num of stars of the bottom layer
     """
     for i in range(1, x + 1):
-        output = print(" " * (x-i) + "*" * i)
-
-    return output
+        print(" " * (x-i) + stars(i))
 
 pyramid_mirror(10)
 
