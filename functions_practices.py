@@ -115,3 +115,5 @@ def pyramid_mirror(x: int) -> None:
 pyramid_mirror(10)
 
 
+
+

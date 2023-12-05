@@ -56,14 +56,54 @@ def draw_tree(level: int, height: int) -> None:
         burt.stamp()
         burt.color(original_color[0])
 
+
+def draw_fancy_tree(level: int, height: int) -> None:
+    """A recursive function that draws a tree
+    with initial given height in pixels
+    
+    Params:
+    
+    level - a num representing the levels of branches
+    height - height of the main trunk in pixels
+    """
+    
+    if level > 0:
+        # 1. Move turtle forward height pixels
+        burt.fd(height)
+
+        # 2. Turn turtle left
+        burt.lt(40)
+        #   a. Draw a smaller tree (current level - 1)
+        draw_fancy_tree(level - 1, height * 3/4)
+
+        # 3. Turn turtle right
+        burt.rt(40)
+        #   a. Draw a smaller tree (current level - 1)
+        draw_fancy_tree(level - 1, height * 3/4)
+
+        burt.rt(40)
+        #   b. Draw a smaller tree (current level - 1)
+        draw_fancy_tree(level - 1, height * 3/4)
+
+        # 4. Return to beginning
+        burt.lt(40)
+        burt.bk(height)
+    else:
+        original_color = burt.color()
+        burt.color("green")
+        burt.stamp()
+        burt.color(original_color[0])
+
+
 # Set up Burt to draw trees
 burt.color('brown')
 burt.setheading(90)     # points Burt north
 burt.width(4)           # thicker trunk and branches
 burt.speed(0)
 
-draw_tree(5, 100)
+draw_fancy_tree(4, 120)
 
 
 turtle.done()
+
 
