@@ -54,9 +54,17 @@ def search(l: list, item: any) -> int:
 
 	  Params:
 		  l - a list of anything
+		  item - thing we're looking for
 
 	  Returns:
 	      index in the list, -1 if not found
 	  """
-	# 
+	  counter = 0
+	  # Search algo
+	  for thing in l:
+		 if thing == item:
+				 return counter
+		 else: 
+				 counter += 1
+	   return -1
 ```
