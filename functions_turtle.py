@@ -72,21 +72,21 @@ def draw_fancy_tree(level: int, height: int) -> None:
         burt.fd(height)
 
         # 2. Turn turtle left
-        burt.lt(40)
+        burt.lt(36)
         #   a. Draw a smaller tree (current level - 1)
         draw_fancy_tree(level - 1, height * 3/4)
 
         # 3. Turn turtle right
-        burt.rt(40)
+        burt.rt(45)
         #   a. Draw a smaller tree (current level - 1)
         draw_fancy_tree(level - 1, height * 3/4)
+        burt.rt(44)
 
-        burt.rt(40)
         #   b. Draw a smaller tree (current level - 1)
         draw_fancy_tree(level - 1, height * 3/4)
 
         # 4. Return to beginning
-        burt.lt(40)
+        burt.lt(53)
         burt.bk(height)
     else:
         original_color = burt.color()
@@ -105,5 +105,3 @@ draw_fancy_tree(4, 120)
 
 
 turtle.done()
-
-

@@ -28,3 +28,35 @@ def area_of_a_square(sidelength: float):
 area_of_a_square(12.2)
 ```
 
+
+# Functions with Return Values
+
+If a function has a **return** keyword in the body, we can call it a **fruitful function**.
+
+```python
+def adder(x: int, y: int) -> int:
+	"""Returns the sum of the given number"""
+	sum = x + y
+	return = sum
+
+adder(10, 2) # 12
+```
+
+The `return` keyword does two things in a function.
+
+1 . Stops the function
+2, If there is a value after the `return` keyword, it sends the value back 
+to the function call
+
+```python
+def search(l: list, item: any) -> int:
+	  """ Searches through a list and returns the index.
+
+	  Params:
+		  l - a list of anything
+
+	  Returns:
+	      index in the list, -1 if not found
+	  """
+	# 
+```
