@@ -101,7 +101,7 @@ burt.setheading(90)     # points Burt north
 burt.width(4)           # thicker trunk and branches
 burt.speed(0)
 
-draw_fancy_tree(4, 120)
+draw_fancy_tree(2, 120)
 
 
 turtle.done()
