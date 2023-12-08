@@ -40,4 +40,24 @@ def fib(n: int) -> int:
     elif n > 2:
         return (fib(n-1) + fib(n-2))
     
-print(fib(10))
+print(fib(20))
+
+def fib_itr(n: int) -> int:
+    """Returns the nth Fibonacci number.
+    Calculates this iteratively."""
+
+    last_num, num, result = 0, 1, 0
+
+    for _ in range(n-1):
+        result = last_num + num
+        
+        num, last_num = result, num
+
+    return result
+
+print(fib_itr(50))
+
+# x = 50
+# for i in range(1,x+1):
+#     print(f"Number {i}: {fib_itr(i)}")
+
