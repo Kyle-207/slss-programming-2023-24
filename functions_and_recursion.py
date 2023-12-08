@@ -2,6 +2,8 @@
 # Author: Kyle Wang
 # December 6, 2023
 
+import math
+
 def factorial(num: int) -> int:
     """Returns the result of the number's
     factorial using recursion
@@ -57,7 +59,6 @@ def fib_itr(n: int) -> int:
 
 print(fib_itr(50))
 
-# x = 50
-# for i in range(1,x+1):
-#     print(f"Number {i}: {fib_itr(i)}")
-
+x = 10
+for i in range(1,x+1):
+    print(f"Number {i}: {fib_itr(i)}")
