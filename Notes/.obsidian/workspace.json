@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functions.md",
+                "file": "Lists.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functions.md",
+                "file": "Lists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functions.md",
+                "file": "Lists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functions.md"
+                "file": "Lists.md"
               }
             }
           },
@@ -158,20 +158,20 @@
   },
   "active": "ff3e66534ba47b6b",
   "lastOpenFiles": [
+    "List.md",
+    "Lists.md",
+    "Functions.md",
     "Iteration.md",
     "Headers.md",
     "Git Commands.md",
-    "Functions.md",
     "Errors.md",
     "Design.md",
     "Conditionals.md",
     "Strings.md",
     "Numbers Solutions.md",
     "Number Solutions.md",
-    "List.md",
     "Natural Language Processing.md",
     "Boolean.md",
-    "Lists.md",
     "Recommendation Systems.md",
     "Quiz 1 - Template.md",
     "Numbers Problems Delivery.md",
