@@ -5,5 +5,8 @@
 from PIL import Image
 
 # Recall that we can open up files in Python
-with Image.open("kid-green.jpg") as f:
-    f.readline()
+with Image.open("./Images/kid-green.jpg") as im:
+    # get the pixel into 
+    pixel = im.getpixel((0,0))
+    print(pixel)
+    
