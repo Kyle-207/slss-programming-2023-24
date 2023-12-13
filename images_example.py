@@ -10,3 +10,9 @@ with Image.open("./Images/kid-green.jpg") as im:
     pixel = im.getpixel((0, 0))
     print(pixel)
     
+    # get the middle pixel
+    middle = im.width // 2
+    middle_pixel = im.getpixel((middle,middle))
+    print(middle_pixel)
+
+    print(middle)
