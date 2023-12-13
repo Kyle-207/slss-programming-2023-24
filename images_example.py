@@ -38,5 +38,3 @@ with Image.open("./Images/kid-green.jpg") as im:
                 print("GREEN PiXEL!!!")
             else:
                 print("UNKNOWN PIXEL!!!")
-
-        
