@@ -1,0 +1,120 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Image Color Picker Online | Html Color picker | HEX, RGB, CMYK, HSV, HSL Color Picker</title>
+    <meta name="description" content="Image Color Picker Online | Html Color picker | HEX, RGB, CMYK, HSV, HSL Color Picker">
+    <meta name="author" content="Alexander Semikashev">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/css/style.css?v=4">
+
+    <link rel="alternate" hreflang="x-default" href="https://imagecolorpicker.online">
+    <link rel="alternate" hreflang="en" href="https://imagecolorpicker.online">
+    <link rel="alternate" hreflang="ru" href="https://imagecolorpicker.online/ru/">
+    <link rel="alternate" hreflang="de" href="https://imagecolorpicker.online/de/">
+    <link rel="alternate" hreflang="es" href="https://imagecolorpicker.online/es/">
+    <link rel="alternate" hreflang="fr" href="https://imagecolorpicker.online/fr/">
+    <link rel="alternate" hreflang="pl" href="https://imagecolorpicker.online/pl/">
+
+    <script src="/js/clipboard.min.js"></script>
+    <script src="/js/script.min.js?v=3" async></script>
+
+    <meta property="og:title" content="Image Color Picker Online | Html Color picker | HEX, RGB, CMYK, HSV, HSL Color Picker" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://imagecolorpicker.online/" />
+    <meta property="og:image" content="https://imagecolorpicker.online/preview-v1.png" />
+    <meta property="og:image:width" content="1144"/>
+    <meta property="og:image:height" content="773"/>
+
+        <link rel="canonical" href="https://imagecolorpicker.online" />
+        <!-- Yandex.RTB -->
+    <script>window.yaContextCb=window.yaContextCb||[]</script>
+    <script src="https://yandex.ru/ads/system/context.js" async></script>
+</head>
+<body id="body">
+    <div class="wrap" style="z-index: 100;">
+        <main class="site-main">
+            <header class="site-header">
+                <ul class="langs">
+                    <li class="active"><a href="/">English</a></li>
+                    <li ><a href="/ru/">Русский</a></li>
+                    <li ><a href="/de/">Deutsch</a></li>
+                    <li ><a href="/es/">Español</a></li>
+                    <li ><a href="/fr/">Français</a></li>
+                    <li ><a href="/pl/">Polski</a></li>
+                </ul>
+                <div class="site-header-block">
+                    <a class="site-logo-link" href="/">
+                        <img src="/images/logo2.jpg" alt="Image Color Picker"><h1 class="site-logo">ImageColorPicker.online</h1>
+                    </a>
+                    <p class="site-logo-sublogo">Upload file from your computer, Drag&Drop or (print screen and ctrl+v) to access its color codes.</p>
+                    <p class="site-logo-donate"></p>
+                </div>
+            </header>
+            
+            <div class="site-divider"><span></span></div>
+            <div class="site-content">
+                <div class="picker-header">
+                    <div class="upload">
+                        <label for="fileUpload">Choose file</label>
+                        <input type="file" id="fileUpload" name="fileUpload">
+                    </div>
+                    <span class="sep" style="display: none;">or</span>
+                    <span class="uploadInput" style="display: none;">
+                        <input type="text" placeholder="https://..." id="fileUploadLink"><button id="fileUploadBtn" type="button">Upload<img src="/bars.svg" alt=""></button>
+                    </span>
+                </div>
+                <div class="picker-info">Click on image for stop movement</div>
+                <div class="picker-image">
+                    <div class="picker-result">
+                        <div class="picker-result-canvas"><canvas id="canvasZoom" width="200" height="200"></canvas></div>
+                        <div class="picker-result-block">
+                            <span class="title">Result:</span>
+                            <div id="pickerResultColor" class="color" style="background-color: #fff"></div>
+                            <div class="colorText">
+                                <div class="label">HEX</div><input id="pickerResultHEX" type="text" value="#ffffff" readonly><svg class="clipboard" data-clipboard-target="#pickerResultHEX" height="22" width="21" viewBox="0 0 22 21" xmlns="http://www.w3.org/2000/svg"><path d="M14.5 0h-12C1.4 0 .5.9.5 2v14h2V2h12V0zm3 4h-11c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16h-11V6h11v14z" fill="#000" fill-rule="evenodd"/></svg>
+                            </div>
+                            <div class="colorText">
+                                <div class="label">RGB</div><input id="pickerResultRGB" type="text" value="255, 255, 255" readonly><svg class="clipboard" data-clipboard-target="#pickerResultRGB" height="22" width="21" viewBox="0 0 22 21" xmlns="http://www.w3.org/2000/svg"><path d="M14.5 0h-12C1.4 0 .5.9.5 2v14h2V2h12V0zm3 4h-11c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16h-11V6h11v14z" fill="#000" fill-rule="evenodd"/></svg>
+                            </div>
+                            <div class="colorText">
+                                <div class="label">CMYK</div><input id="pickerResultCMYK" type="text" value="0%, 0%, 0%, 0%" readonly><svg class="clipboard" data-clipboard-target="#pickerResultCMYK" height="22" width="21" viewBox="0 0 22 21" xmlns="http://www.w3.org/2000/svg"><path d="M14.5 0h-12C1.4 0 .5.9.5 2v14h2V2h12V0zm3 4h-11c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16h-11V6h11v14z" fill="#000" fill-rule="evenodd"/></svg>
+                            </div>
+                            <div class="colorText">
+                                <div class="label">HSV</div><input id="pickerResultHSV" type="text" value="0°, 0%, 100%" readonly><svg class="clipboard" data-clipboard-target="#pickerResultHSV" height="22" width="21" viewBox="0 0 22 21" xmlns="http://www.w3.org/2000/svg"><path d="M14.5 0h-12C1.4 0 .5.9.5 2v14h2V2h12V0zm3 4h-11c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16h-11V6h11v14z" fill="#000" fill-rule="evenodd"/></svg>
+                            </div>
+                            <div class="colorText">
+                                <div class="label">HSL</div><input id="pickerResultHSL" type="text" value="0°, 0%, 100%" readonly><svg class="clipboard" data-clipboard-target="#pickerResultHSL" height="22" width="21" viewBox="0 0 22 21" xmlns="http://www.w3.org/2000/svg"><path d="M14.5 0h-12C1.4 0 .5.9.5 2v14h2V2h12V0zm3 4h-11c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16h-11V6h11v14z" fill="#000" fill-rule="evenodd"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="picker-canvas">
+                        <canvas class="main" id="canvas" width="880" height="498"></canvas>
+                        <canvas class="hide" id="canvasHide" style="display: none;"></canvas>
+                    </div>
+                </div>
+            </div>
+			            <div class="site-text">
+                
+            <p>Free online color picker from image, no install needed. Use the online image color picker above to select a color and get the HTML, HEX, RGB, CMYK, HSV, HSL Color Code of this pixel. This is an image color picker that can help us find the color from an image, support HTML hex code, RGB/RGBa color code, CMYK, HSV and HSL.</p>
+            <br><br>
+                    </div>
+        </main>
+        <footer class="site-footer">
+            © Copyright 2019 - 2023 ImageColorPicker.online  |  Contact: support@imagecolorpicker.online
+        </footer>
+    </div>
+	    <div class="dragdrop_block"><div class="text">Drag file here</div></div>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-66J9313756"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'G-66J9313756');
+    </script>
+    <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(57091855, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/57091855" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+</body>
+</html>
