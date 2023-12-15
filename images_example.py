@@ -31,3 +31,5 @@ with Image.open("./Images/kid-green.jpg") as im:
 
     # save the image
     im.save("./Images/output.jpg")
+
+    print(im.getpixel((0, 0)))

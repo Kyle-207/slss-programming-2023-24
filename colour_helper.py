@@ -17,5 +17,5 @@ def pixel_to_string(pixel: tuple) -> str:
     """
     r, g, b = pixel
 
-    if g > 120 and r < 32 and b < 50:
+    if g > 213 and r < 61 and b < 75:
         return "green"
