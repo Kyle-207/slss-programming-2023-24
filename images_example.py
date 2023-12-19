@@ -32,4 +32,23 @@ with Image.open("./Images/kid-green.jpg") as im:
     # save the image
     im.save("./Images/output.jpg")
 
-    print(im.getpixel((0, 0)))
+    
+
+
+# Question 2
+
+with Image.open("./Images/best_pizza.jpg") as im:
+
+    image_height = im.height
+    image_width = im.width
+
+    for y in range(image_height):
+        for x in range(image_width):
+            pixel = im.getpixel((x, y))
+            if colour_helper.is_light(pixel) == True:
+                im.putpixel((x, y), colour_helper.white_pixel)
+            else:
+                im.putpixel((x, y), colour_helper.black_pixel)
+
+    im.save("./Images/output2.jpg")
+

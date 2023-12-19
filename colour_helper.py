@@ -23,6 +23,8 @@ def pixel_to_string(pixel: tuple) -> str:
     elif (g > 172 and r < 75 and b < 91) or (g > 134 and r < 101 and b < 32) or (g >= 190 and r <= 84 and b <= 107):
         return "green"
     
+# Question 1
+    
 def is_light(pixel: tuple) -> bool:
     """Take a rgb 3-tuple. If the average 
     is greater than or equal to 128, 
@@ -51,3 +53,4 @@ print(is_light(black_pixel))      # False
 print(is_light(dark_gray_pixel))  # False
 print(is_light(light_gray_pixel)) # True
 print(is_light(white_pixel))      # True
+
