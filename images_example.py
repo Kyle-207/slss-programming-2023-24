@@ -50,5 +50,5 @@ with Image.open("./Images/best_pizza.jpg") as im:
             else:
                 im.putpixel((x, y), colour_helper.black_pixel)
 
-    im.save("./Images/output2.jpg")
+    im.save("./Images/pizza_output.jpg")
 
