@@ -38,7 +38,7 @@ with Image.open("./Images/kid-green.jpg") as im:
 # Question 2
 
 with Image.open("./Images/best_pizza.jpg") as im:
-
+    # Get the pize
     image_height = im.height
     image_width = im.width
 
@@ -52,3 +52,16 @@ with Image.open("./Images/best_pizza.jpg") as im:
 
     im.save("./Images/pizza_output.jpg")
 
+# Extension
+    
+def pixel_to_grayscale(pixel: tuple) -> tuple:
+    """Takes a pixel and gives a grayscale version of it.
+    
+    Params:
+        pixel - 3-tuple of red, gree, blue
+        
+    Returns:
+        tuple - a grayscale version of the given value
+    """
+
+    
