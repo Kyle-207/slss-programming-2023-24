@@ -54,3 +54,9 @@ print(is_light(dark_gray_pixel))  # False
 print(is_light(light_gray_pixel)) # True
 print(is_light(white_pixel))      # True
 
+
+def pixel_to_grayscale(pixel: tuple) -> tuple:
+    """Returns a grayscale version of the given pixel"""
+    gray = pixel[0] * 0.3 + pixel[1] * 0.59 + pixel[2] * 0.11
+
+    return (gray, gray, gray)
