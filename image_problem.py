@@ -33,9 +33,16 @@ binarize("output.jpg")
 
 # Extension problem
 
-def pixel_to_grayscale(pixel: tuple) -> tuple:
-    """Returns a grayscale version of the given pixel"""
-    gray = pixel[0] * 0.3 + pixel[1] * 0.59 + pixel[2] * 0.11
+def image_to_grayscale(filename: str) -> None:
+    """Convert an image to grayscale"""
+   
+    with Image.open(f"./Images/{filename}") as im:
+        for y in range (im.height):
+            for x in range (im.width):
+                pixel = im.getpixel((x, y))
 
-    return (gray, gray, gray)
+                im.putpixel((x, y), colour_helper.pixel_to_grayscale(pixel))
 
+        im.save("./Images/grayscale.jpg")
+
+image_to_grayscale("best_pizza.jpg")
