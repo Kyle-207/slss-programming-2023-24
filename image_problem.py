@@ -14,7 +14,7 @@ from PIL import Image
 # Question 2: Binarizing an image
 def binarize(filename: str) -> None:
     # Open the image
-    with Image.open("./Images/best_pizza.jpg") as im:
+    with Image.open(f"./Images/{filename}") as im:
         # Visit every pixel
         for y in range(im.height):
             for x in range(im.width):
