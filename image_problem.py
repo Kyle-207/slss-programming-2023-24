@@ -29,7 +29,7 @@ def binarize(filename: str) -> None:
         
         im.save("./Images/binarized_image.jpg")
     
-binarize("beach.jpg")
+binarize("output.jpg")
 
 # Extension problem
 
