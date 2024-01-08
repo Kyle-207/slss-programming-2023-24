@@ -11,8 +11,10 @@ import random
 
 # Please do not use ChatGPT or any LLM
 
-good_response = ["", "2", "3"]
-bad_response  = [""]
+good_response = ["I slept a lot.",
+                 "I went to Aberdeen Centre and saw a huge bear for Christmas decorations.",
+                 "I finished reading a book."]
+bad_response  = ["I"]
 
 
 def winter_holiday(good_or_bad: str) -> str:
@@ -26,6 +28,7 @@ def winter_holiday(good_or_bad: str) -> str:
     Returns:
         an event that happened to you during the holidays 
         the event is selected part"""
+    
     if good_or_bad.lower().strip(",.?/!") == "good":
         return random.choice(good_response)
     
@@ -36,9 +39,11 @@ def winter_holiday(good_or_bad: str) -> str:
 def main() -> None:
     # Runs all the things we want to test in our .py file
     winter_holiday("good")
+    winter_holiday("bad")
 
 if  __name__ == "__main__":
     main()
 
 
 print(winter_holiday("good"))
+print(winter_holiday("bad"))
