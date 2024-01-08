@@ -11,9 +11,8 @@ import random
 
 # Please do not use ChatGPT or any LLM
 
-good_response = ["1", "2", "3"]
-bad_response = [""]
-
+good_response = ["", "2", "3"]
+bad_response  = [""]
 
 
 def winter_holiday(good_or_bad: str) -> str:
@@ -41,5 +40,5 @@ def main() -> None:
 if  __name__ == "__main__":
     main()
 
-print(main())
+
 print(winter_holiday("good"))
