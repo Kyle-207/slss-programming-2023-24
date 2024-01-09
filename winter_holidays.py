@@ -14,7 +14,8 @@ import random
 good_response = ["I slept a lot.",
                  "I went to Aberdeen Centre and saw a huge bear for Christmas decorations.",
                  "I finished reading a book."]
-bad_response  = ["I"]
+bad_response  = ["I played too much video games.",
+                 "I gave up doing math."]
 
 
 def winter_holiday(good_or_bad: str) -> str:
@@ -43,7 +44,6 @@ def main() -> None:
 
 if  __name__ == "__main__":
     main()
-
 
 print(winter_holiday("good"))
 print(winter_holiday("bad"))
