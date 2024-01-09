@@ -40,11 +40,8 @@ def winter_holiday(good_or_bad: str) -> str:
 
 def main() -> None:
     # Runs all the things we want to test in our .py file
-    winter_holiday("good")
-    winter_holiday("bad")
+    print(winter_holiday("good"))
+    print(winter_holiday("bad"))
 
 if  __name__ == "__main__":
     main()
-
-print(winter_holiday("good"))
-print(winter_holiday("bad"))
