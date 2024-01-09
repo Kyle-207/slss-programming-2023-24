@@ -29,10 +29,11 @@ def winter_holiday(good_or_bad: str) -> str:
     Returns:
         an event that happened to you during the holidays 
         the event is selected part"""
-    
+    # if the response is good, return an event from good_response list
     if good_or_bad.lower().strip(",.?/!") == "good":
         return random.choice(good_response)
     
+    # if the response is bad, return an event from bad_response list
     elif good_or_bad.lower().strip(",.?/!") == "bad":
         return random.choice(bad_response)
 
