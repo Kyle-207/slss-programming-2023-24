@@ -22,8 +22,11 @@ def pixel_to_string(pixel: tuple) -> str:
         return "green"
     
     # TODO: Implement detecting the colour red
-    elif g < 25 and r > 150 and b < 25:
+    if g < 25 and r > 150 and b < 25:
         return "red"
+    
+    if g >= 80 and b < 50 and r < 50:
+        return "jelly bean green"
     
 # Question 1
     
