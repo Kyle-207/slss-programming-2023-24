@@ -28,6 +28,9 @@ def pixel_to_string(pixel: tuple) -> str:
     if g >= 80 and b < 50 and r < 50:
         return "jelly bean green"
     
+    if g >= 60 and b > 150 and r > 50:
+        return "purple"
+    
 # Question 1
     
 def is_light(pixel: tuple) -> bool:
