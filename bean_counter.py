@@ -6,9 +6,9 @@ from colour_helper import pixel_to_string
 
 from PIL import Image
 
-RED_PIXEL = (160, 10, 10)
-GREEN_PIXEL = (80, 30, 30)
-PURPLE_PIXEL = ()
+RED_PIXEL = (183, 3, 7)
+GREEN_PIXEL = (39, 115, 17)
+PURPLE_PIXEL = (66, 71, 173)
 
 # Version 0.1
 # Count all red pixels
@@ -40,7 +40,7 @@ print(len(purple_pixels))
 
 # Calculate the percentage of all jelly bean colours
 # Divide that number by the total pixels in the image
-original_size = (jelly_bean_img.height, jelly_bean_img.width)
+original_size = (jelly_bean_img.width, jelly_bean_img.height)
 
 red_percentage = len(red_pixels) / (jelly_bean_img.height * jelly_bean_img.width) * 100
 green_percentage = len(green_pixels) / (jelly_bean_img.height * jelly_bean_img.width) * 100
@@ -54,23 +54,23 @@ print(f"Purple Jelly Beans: {round(purple_percentage, 2)}%")
 # Create a map of all red pixels
 # Create a new image that is the same size as the original image
 
-red_pixel_map = Image.new("RGB", original_size)
+pixels_map = Image.new("RGB", original_size)
 
 # For every pixel location in "found" pixel list, place a pixel on that image
 
 for pixel_loc in red_pixels:
-     red_pixel_map.putpixel(pixel_loc, RED_PIXEL)
+     pixels_map.putpixel(pixel_loc, RED_PIXEL)
 
 for pixel_loc in green_pixels:
-    red_pixel_map.putpixel(pixel_loc, GREEN_PIXEL)
+    pixels_map.putpixel(pixel_loc, GREEN_PIXEL)
 
 for pixel_loc in purple_pixels:
-    red_pixel_map.putpixel(pixel_loc, PURPLE_PIXEL)
+    pixels_map.putpixel(pixel_loc, PURPLE_PIXEL)
 
-red_pixel_map.save("colours_pixel_map.jpg")
+pixels_map.save("./Images/colours_pixel_map.jpg")
 
 
-red_pixel_map.close()
+pixels_map.close()
 jelly_bean_img.close()
 
 # Version 0.1 ---
