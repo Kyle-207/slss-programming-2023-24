@@ -40,6 +40,8 @@ print(len(purple_pixels))
 
 # Calculate the percentage of all jelly bean colours
 # Divide that number by the total pixels in the image
+original_size = (jelly_bean_img.height, jelly_bean_img.width)
+
 red_percentage = len(red_pixels) / (jelly_bean_img.height * jelly_bean_img.width) * 100
 green_percentage = len(green_pixels) / (jelly_bean_img.height * jelly_bean_img.width) * 100
 purple_percentage = len(purple_pixels) / (jelly_bean_img.height * jelly_bean_img.width) * 100
@@ -51,7 +53,7 @@ print(f"Purple Jelly Beans: {round(purple_percentage, 2)}%")
 
 # Create a map of all red pixels
 # Create a new image that is the same size as the original image
-original_size = (jelly_bean_img.height, jelly_bean_img.width)
+
 red_pixel_map = Image.new("RGB", original_size)
 
 # For every pixel location in "found" pixel list, place a pixel on that image
