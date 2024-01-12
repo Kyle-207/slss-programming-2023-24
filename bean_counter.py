@@ -6,7 +6,7 @@ from colour_helper import pixel_to_string
 
 from PIL import Image
 
-RED_PIXEL = (150, 0, 0)
+RED_PIXEL = (160, 10, 10)
 GREEN_PIXEL = (80, 30, 30)
 PURPLE_PIXEL = ()
 
@@ -59,7 +59,7 @@ red_pixel_map = Image.new("RGB", original_size)
 # For every pixel location in "found" pixel list, place a pixel on that image
 
 for pixel_loc in red_pixels:
-    red_pixel_map.putpixel(pixel_loc, RED_PIXEL)
+     red_pixel_map.putpixel(pixel_loc, RED_PIXEL)
 
 for pixel_loc in green_pixels:
     red_pixel_map.putpixel(pixel_loc, GREEN_PIXEL)
