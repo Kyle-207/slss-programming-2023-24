@@ -28,7 +28,7 @@ def pixel_to_string(pixel: tuple) -> str:
     if g >= 80 and b < 40 and r <= 65:
         return "jelly bean green"
     
-    if g <= 110 and b > 90 and r >= 40:
+    if g <= 110 and b > 90 and r >= 40 and r < 150:
         return "purple"
     
 # Question 1
