@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lists.md",
+                "file": "Conditionals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d2359418752860c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Boolean.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lists.md",
+                "file": "Boolean.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lists.md",
+                "file": "Boolean.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lists.md"
+                "file": "Boolean.md"
               }
             }
           },
@@ -158,17 +171,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff3e66534ba47b6b",
+  "active": "d2359418752860c9",
   "lastOpenFiles": [
-    "List.md",
+    "Conditionals.md",
     "Lists.md",
+    "List.md",
     "Functions.md",
     "Iteration.md",
     "Headers.md",
     "Git Commands.md",
     "Errors.md",
     "Design.md",
-    "Conditionals.md",
     "Strings.md",
     "Numbers Solutions.md",
     "Number Solutions.md",
