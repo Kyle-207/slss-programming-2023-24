@@ -36,7 +36,6 @@ print(ball_pixels)
 centre_x = ((ball_pixels[-1][0]) - (ball_pixels[0][0]) + 1) // 2
 
 
-
 centre_y = ((ball_pixels))
 
 ball_map.save("./Images/ball_map.jpg")
