@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lists.md",
+                "file": "Quiz 1 - Template.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lists.md",
+                "file": "Quiz 1 - Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lists.md",
+                "file": "Quiz 1 - Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lists.md"
+                "file": "Quiz 1 - Template.md"
               }
             }
           },
@@ -173,13 +173,17 @@
   },
   "active": "d2359418752860c9",
   "lastOpenFiles": [
+    "README.md",
+    "Recommendation Systems.md",
+    "Terminal Commands.md",
+    "Type.md",
+    "Lists.md",
     "List.md",
     "Strings.md",
     "Numbers.md",
     "Natural Language Processing.md",
     "Modules.md",
     "Markdown (Re) Introduction.md",
-    "Lists.md",
     "Iteration.md",
     "Headers.md",
     "Git Commands.md",
@@ -190,15 +194,11 @@
     "Boolean.md",
     "Numbers Solutions.md",
     "Number Solutions.md",
-    "Recommendation Systems.md",
     "Quiz 1 - Template.md",
     "Numbers Problems Delivery.md",
     "Untitled",
-    "README.md",
     "chip_rater.py",
     "quiz_2.md",
-    "Type.md",
-    "Terminal Commands.md",
     "fave_bubble_tea.py",
     "number_practice.py",
     "quiz_1.md",
