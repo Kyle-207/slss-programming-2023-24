@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Strings.md",
+                "file": "Lists.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Strings.md",
+                "file": "Lists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Strings.md",
+                "file": "Lists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Strings.md"
+                "file": "Lists.md"
               }
             }
           },
@@ -173,12 +173,13 @@
   },
   "active": "d2359418752860c9",
   "lastOpenFiles": [
+    "List.md",
+    "Strings.md",
     "Numbers.md",
     "Natural Language Processing.md",
     "Modules.md",
     "Markdown (Re) Introduction.md",
     "Lists.md",
-    "List.md",
     "Iteration.md",
     "Headers.md",
     "Git Commands.md",
@@ -187,7 +188,6 @@
     "Design.md",
     "Conditionals.md",
     "Boolean.md",
-    "Strings.md",
     "Numbers Solutions.md",
     "Number Solutions.md",
     "Recommendation Systems.md",
